@@ -1,0 +1,110 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca02fba1-d396-445c-a828-70c2236e6e6a/dgjjnom-1c9d1d59-1607-4b65-a146-3beca257c4bf.jpg/v1/fill/w_1280,h_732,q_75,strp/nature_ocean_undersea_world_wallpapers_009_by_art_depo_dgjjnom-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvY2EwMmZiYTEtZDM5Ni00NDVjLWE4MjgtNzBjMjIzNmU2ZTZhXC9kZ2pqbm9tLTFjOWQxZDU5LTE2MDctNGI2NS1hMTQ2LTNiZWNhMjU3YzRiZi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KvZVbvSftR4QPoKY-TUhwCPlXPnxZSve4SspHg5i7HI') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+
+}
+
+body h1{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.survey-form {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.survey-form span,label{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+.survey-form input[type="text"],
+.survey-form input[type="email"],
+.survey-form input[type="number"],
+.survey-form select,
+.survey-form textarea {
+    width: fit-content;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.survey-form input[type="file"] {
+    margin-top: 5px;
+}
+
+.survey-form input[type="radio"],
+.survey-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.survey-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0370dd;
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.survey-form button:hover {
+    background-color: #0559ad;
+}
+
+
+
+/*
+    New entries
+*/
+
+.table{
+    text-align: center;
+}
+
+.survey-form table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+
+.survey-form td:first-child{
+    text-align: end;
+    padding-right: 20px;
+}
+
+.survey-form td{
+    text-align: start;
+    padding: 8px 0px;
+}
+
+.survey-form tr{
+    padding-bottom: 15px;
+}
